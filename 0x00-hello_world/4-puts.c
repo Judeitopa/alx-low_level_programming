@@ -8,6 +8,6 @@
 
 int main(void)
 {
-puts(""Progragmming is like building a multilingual puzzle\0"");
+puts(""Progragmming is like building a multilingual puzzle\0);
 return (0);
 }
