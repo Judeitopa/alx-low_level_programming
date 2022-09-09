@@ -6,7 +6,7 @@
  * Return: Always 1 (Success)
 */
 int main(void)
-{const char[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19",
-write(STDOUT_FILENO, x, strlen(x));
+{char str1[] ="and that piece of art is useful\" - Dora Korpar, 2015-10-19",
+write(STDOUT_FILENO, srtl[], strlen(str1));
 return (1);
 }
