@@ -5,10 +5,15 @@
  * Return: Always 0 (Success)
 */
 int main(void)
-{ char ch = 'a';
+{ char ch;
 	for (ch = 'a'; ch <= 'z' ; ch++)
-	putchar(ch);
-	if (ch == 'q' || ch == 'e')
-	putchar('\0');
-	return (0);
+	{ if (ch != 'e' && ch != 'q')
+		{putchar(ch);
+		}
+		else
+		{
+		}
+	}
+putchar('\n');
+return (0);
 }
