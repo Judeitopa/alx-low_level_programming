@@ -1,18 +1,14 @@
 #include <stdio.h>
 /**
-* main -Entry Point
-* return - Always a success
-*/int main(void)
-{int size(int a, int b, int c);
-{a = sizeof(char);
-b = sizeof(int);
-c = sizeof(long long int);
-d = sizeof(float);
-}
-printf("Size of a char:%d byte\n", a);
-printf("Size of an int:%d byte\n", b);
-printf("Size of a long int:%d byte\n", b);
-printf("Size of a long long int:%d byte\n", c);
-printf("Size of a float:%d byte\n", d);
+ * main - Entry Point
+ * Description: 'Prints sized variables'
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{printf("Size of a char:%d byte(s)\n", sizeof(char));
+printf("Size of an int:%d byte(s)\n", sizeof(int));
+printf("Size of a long int:%d byte(s)\n", sizeof(long int));
+printf("Size of a long long int:%d byte(s)\n", sizeof(long long int));
+printf("Size of a float:%d byte(s)\n", sizeof(float));
 return (0);
 }
