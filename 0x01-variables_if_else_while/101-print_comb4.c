@@ -18,7 +18,7 @@ for (num = '0'; num <= '7'; num++)
 				putchar(num);
 				putchar(num1);
 				putchar(num2);
-			if (num != 7)
+			if (num != '7')
 			{
 				putchar(',');
 				putchar(' ');
