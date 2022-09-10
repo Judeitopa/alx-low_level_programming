@@ -8,21 +8,22 @@
 int main(void)
 {int num;
 	int num1;
-for (num = '0' ; num <= '8' ; num++)
+for (num = '0' ; num <= '9' ; num++)
 {
-for (num1 = '1' ; num <= '9' ; num++)
+for (num1 = '0' ; num <= '9' ; num++)
 {
 if (num < num1)
 {
 	putchar(num);
 	putchar(num1);
 
-}
-}
-if (num != '8' && num1 != '9')
+
+if (num == '8' && num1 != '9')
 {
 	putchar(',');
 	putchar(' ');
+}
+}
 }
 }
 putchar('\n');
