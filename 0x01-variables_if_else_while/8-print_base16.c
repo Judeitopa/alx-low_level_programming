@@ -5,7 +5,7 @@
 * Return: Always 0 (Success)
 */
 int main(void)
-{ int main;
+{ int num;
 	char alpha;
 for (num = 0 ; num <= 9 ; num++)
 {
