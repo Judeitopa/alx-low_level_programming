@@ -17,11 +17,11 @@ int main(void)
 {
 					if (((num2 + num3) > (num + num1) &&  num2 >= num) || num < num2)
 {
-						putchar(num);
-						putchar(num1);
-						putchar(' ');
-						putchar(num2);
-						putchar(num3);
+putchar(num);
+putchar(num1);
+putchar(' ');
+putchar(num2);
+putchar(num3);
 					if (num + num1 + num2 + num3  == 227 && num != 9)
 						{break;
 }
@@ -34,7 +34,7 @@ else
 }
 }
 }
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
