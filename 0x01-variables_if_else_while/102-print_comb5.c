@@ -22,7 +22,7 @@ int main(void)
 						putchar(' ');
 						putchar(num2);
 						putchar(num3);
-					if (num + num1 + num2 + num3  == 227 && num != 9)
+					if (num + num1 + num2 + num3  == 227 && num != '9')
 						{break;
 }
 else
