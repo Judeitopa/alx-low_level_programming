@@ -6,7 +6,15 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{ char text[4] = {'_','p','u','t'};
+{ char text[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	putchar(text[0]);
+	putchar(text[1]);
+	putchar(text[2]);
+	putchar(text[3]);
 	putchar(text[4]);
+	putchar(text[5]);
+	putchar(text[6]);
+	putchar(text[7]);
+	putchar('\n');
 return (0);
 }
