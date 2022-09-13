@@ -5,6 +5,7 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{putchar("_putchar");
+{ char n[] = "_putchar";
+	putchar('n');
 return (0);
 }
