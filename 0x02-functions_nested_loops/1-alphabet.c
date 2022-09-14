@@ -1,15 +1,14 @@
-#include <string.h>
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  * Description: 'function prints the alphabet'
  * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
 char ch;
 	for (ch = 'a'; ch <= 'z'; ch++)
-	{putchar(ch);
+	{_putchar(ch);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
