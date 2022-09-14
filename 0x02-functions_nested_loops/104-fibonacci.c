@@ -53,5 +53,6 @@ printf(", ");
 else
 printf("\n");
 i++;
+}
 return (0);
 }
