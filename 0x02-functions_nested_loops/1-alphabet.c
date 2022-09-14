@@ -14,4 +14,5 @@ char letter = 'a';
 		letter++;
 	}
 	putchar('\n');
+return (0);
 }
