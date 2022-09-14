@@ -4,6 +4,7 @@
  *
  * * Return: 0
  *
+ * postive_or_negative(int i) - tests for zero
  */
 int main(void)
 {int i;
