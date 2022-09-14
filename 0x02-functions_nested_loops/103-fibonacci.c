@@ -19,5 +19,3 @@ while (next < 4000000)
 printf("%i\n", sum);
 return (0);
 }
-}
-}
