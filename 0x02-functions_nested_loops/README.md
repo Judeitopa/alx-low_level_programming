@@ -1,1 +1,1 @@
-this folder is for functions and nested loops
+this program prints _putchar
