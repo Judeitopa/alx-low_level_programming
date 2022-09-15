@@ -9,15 +9,10 @@
 
 int _isupper(int c)
 {
-	static char ch;
-	for (ch = 'A'; ch <= 'Z'; ch++)
+	if ((c >= 'A;) && (c <= 'Z'))
 	{
-		if (c == ch)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
 	}
+	
+	return (0);
+}
