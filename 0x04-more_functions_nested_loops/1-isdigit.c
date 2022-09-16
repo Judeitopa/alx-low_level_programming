@@ -8,14 +8,11 @@
 
 int _isdigit(int c)
 {
-int digit;
-
-	for (digit = 0; digit <= 9; digit++)
-	{
-		if (digit == c)
+	int digit;
+	if (digit >= 0 && digit <= 9)
 		{
 			return (1);
 		}
-		return (0);
-	}
+	
+	return (0);
 }
