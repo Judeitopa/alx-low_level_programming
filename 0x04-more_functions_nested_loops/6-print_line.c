@@ -9,9 +9,9 @@
 
 void print_line(int n)
 {
-while (n-- > 0)
-{
-	putchar('-');
-}
-putchar('\n');
+	while (n --> 0)
+	{
+		putchar('-');
+	}
+	putchar('\n');
 }
