@@ -11,7 +11,7 @@ int n;
 int i = 0;
 	for (n = 0; n <= 14; n++)
 	{
-		while (i < 9)
+		while (i < '9')
 		{
 			_putchar((n % 10) + '0');
 			_putchar('\n');
