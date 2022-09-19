@@ -20,5 +20,6 @@ int x;
 		putchar(c);
 	}
 	putchar(2772 - x);
+	putchar('\n');
 	return (0);
 }
