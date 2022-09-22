@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strcmp - function which compares two strings
- * @s1: first string
- * @s2: second string
- * Return:
- * returns zero if s1 == s2
- * returns negative number is s1 < s2
- * returns positive number if s1 > s2
+ *_strcmp - function which compares two strings
+ *@s1: first string
+ *@s2: second string
+ *Return:
+ *returns zero if s1 == s2
+ *returns negative number is s1 < s2
+ *returns positive number if s1 > s2
  */
 
 int _strcmp(char *s1, char *s2)
