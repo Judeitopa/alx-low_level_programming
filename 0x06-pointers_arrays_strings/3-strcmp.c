@@ -34,7 +34,9 @@ else if (s1[i] != s2[i])
 	break;
 }
 else
+
 i++;
 }
+
 return (diff);
 }
