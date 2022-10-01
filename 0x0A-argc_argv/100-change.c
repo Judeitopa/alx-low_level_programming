@@ -3,8 +3,8 @@
 
 /**
  *main - prints minimum number of coins to make change for an amount of money
- *argc: number of arguments passed to the function
- *argv: argument vector of pointers to string
+ *@argc:number of arguments passed to the function
+ *@argv:argument vector of pointers to string
  *Return: 0, else 1
  */
 
