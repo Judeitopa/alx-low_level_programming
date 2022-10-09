@@ -9,13 +9,15 @@
  */
 
 void _print(char *str, int l)
-{int i, j, i = j = 0;
+{int i, j;
+	i = j = 0;
+
 	while (i < l)
 	{
 		if (str[i] != '0')
 			j = 1;
 		if (j || i == l - 1)
-			_putchar(str[i])
+			_putchar(str[i]);
 				i++;
 	}
 	_putchar('\n');
